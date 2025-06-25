@@ -1,5 +1,6 @@
 import React from 'react';
 import CARD_2 from "../../assets/images/card2.png";
+import {LuTrendingUpDown} from "react-icons/lu"
 
 const AuthLayout = ({children}) => {
   return (
@@ -40,8 +41,8 @@ const StatsInfoCard = ({icon, label, value, color}) => {
             {icon}
         </div>
         <div className="">
-            <h6 className="">{label}</h6>
-            <span className="">${value}</span>
+            <h6 className="text-xs text-gray-500 mb-1">{label}</h6>
+            <span className="text-[20px]">${value}</span>
         </div>
     </div>
 }

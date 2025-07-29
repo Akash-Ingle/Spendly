@@ -26,10 +26,15 @@ const CustomBarChart = ({data}) => {
                         {payload[0].payload.category}
                     </p>
                     <p className="text-sm text-gray-600">
-                        Amount
+                        Amount: <span className="text-sm font-medium text-gray-900">
+                            ${payload[0].payload.amount}
+                        </span>
                     </p>
                 </div>
             )
+        }
+        return null;
+    };
 
   return (
     <div className="bg-white mt-6">

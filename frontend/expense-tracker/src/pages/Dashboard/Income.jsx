@@ -33,7 +33,7 @@ const Income = () => {
       }
     }
     catch (error) {
-      console.log("Something wen wrong. Please try again.", error);
+      console.log("Something went wrong. Please try again.", error);
     }
     finally {
       setLoading(false);

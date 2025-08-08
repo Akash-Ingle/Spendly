@@ -89,6 +89,9 @@ const Expense = () => {
             />
           </div>
         </div>
+        <Modal
+          isOpen={openAddExpenseModal}
+          onClose={() =>}
       </div>
     </DashboardLayout>
   )
